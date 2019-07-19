@@ -16,7 +16,7 @@ def create_app(env_name):
 
     app.config.from_object(Development)
 
-    bcrypt.init_app(app)  # add this line
+    bcrypt.init_app(app)
 
     db.init_app(app)
 
